@@ -13,22 +13,36 @@
   "repository": "https://github.com/StClairdev/badashdev-theme",
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.24.5",
     "browser-sync-webpack-plugin": "^2.2.2",
+    "browserslist": "^4.0.1",
     "css-loader": "^1.0.0",
     "cssnano": "^4.0.2",
+    "eslint": "^5.1.0",
+    "file-loader": "^1.1.11",
+    "font-awesome-loader": "^1.0.2",
+    "html-loader": "^0.5.5",
+    "image-webpack-loader": "^4.3.1",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.2",
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.6",
+    "prettier": "^1.13.7",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.16.0",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "tether": "^1.4.4"
+  }
 }

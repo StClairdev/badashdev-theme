@@ -5,7 +5,7 @@
   "main": "./js/footer-main.js",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "cross-env NODE_ENV=development webpack --watch"
   },
   "keywords": [],
   "author": "Ashley St. Clair",
@@ -19,6 +19,7 @@
     "browser-sync": "^2.24.5",
     "browser-sync-webpack-plugin": "^2.2.2",
     "browserslist": "^4.0.1",
+    "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
     "cssnano": "^4.0.2",
     "eslint": "^5.1.0",
